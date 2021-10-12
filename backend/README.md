@@ -14,8 +14,8 @@ sam build &&
 
 sam deploy \
 --stack-name mock-api \
---template-file template.yaml\
---capabilities CAPABILITY_IAM
+--template-file template.yaml \
+--capabilities CAPABILITY_IAM \
 --confirm-changeset
 ```
 
